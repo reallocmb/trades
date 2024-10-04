@@ -1,0 +1,28 @@
+body {
+    background-color: green;
+}
+
+h1 {
+    justify-content: center;
+    text-align: center;
+    background-color: red;
+}
+
+.table {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+#list_trades_headers {
+    background-color: white;
+}
+
+#list_trades {
+    background-color: grey;
+}
+
+#save-button {
+    width: 100px;
+}

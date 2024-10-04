@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1>Trades Documentation ~ Matthias</h1>
+        <div id="list_trades_headers" class="table">
+            <label>Datum</label>
+            <label>Modus</label>
+            <label>Strategie</label>
+            <label>Save Button</label>
+        </div>
+        <div id="list_trades">
+            <div class="trade-entry table">
+                <input id="datum-input"></input>
+                <select name="modus">
+                    <option value="empty">-</option>
+                    <option value="paper-trading">Paper</option>
+                    <option value="real-trading">Real</option>
+                    <option value="simulate-trading">Simulator</option>
+                </select>
+                <select name="strategie">
+                    <option value="empty">-</option>
+                    <option value="markante-levels">Markante Levels</option>
+                </select>
+                <button id="save-button" onclick="test()">SAVE</button>
+            </div>
+        </div>
+    <script src="index.js"></script>
+</html>
