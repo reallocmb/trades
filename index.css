@@ -8,6 +8,35 @@ h1 {
     background-color: red;
 }
 
+select {
+    border: none;
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    border: none;
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    border: none;
+    background-color: black;
+}
+
 .table {
     display: flex;
     flex-direction: row;
@@ -24,5 +53,13 @@ h1 {
 }
 
 #save-button {
-    width: 100px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+#edit-button {
+    width: 100%;
+    background-color: gray;
+    color: blue;
 }

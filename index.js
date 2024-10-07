@@ -10,7 +10,7 @@ function test() {
         <label></label>
         <label></label>
         <label></label>
-        <button id="save-button" onclick="test()">SAVE</button>
+        <button id="edit-button" onclick="">EDIT</button>
     `
 
     new_child.children[0].textContent = datum_input.value
